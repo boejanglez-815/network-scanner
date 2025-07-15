@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///opt/homebrew/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.97 scan initiated Tue Jul 15 16:24:04 2025 as: nmap -p- -T4 -oX scan_results.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -p- -T4 -oX scan_results.xml 192.168.1.0/24" start="1752611044" startstr="Tue Jul 15 16:24:04 2025" version="7.97" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.1.64" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.1.92" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.1.98" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="192.168.1.165" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1752611097" endtime="1752611794"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.1.1" addrtype="ipv4"/>
+<hostnames>
+<hostname name="Docsis-Gateway" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65526">
+<extrareasons reason="conn-refused" count="65526" proto="tcp" ports="1-21,23-52,54-79,81-442,444-7546,7548-7999,8001-49151,49155-65535"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7547"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="cwmp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http-alt" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49154"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="4758" rttvar="761" to="100000"/>
+</host>
+<host starttime="1752611097" endtime="1752611794"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.64" addrtype="ipv4"/>
+<hostnames>
+<hostname name="MacBookPro" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65527">
+<extrareasons reason="conn-refused" count="65527" proto="tcp" ports="1-87,89-444,446-4999,5001-6999,7001-49601,49603-55463,55465-59177,59179-59868,59870-65535"/>
+</extraports>
+<port protocol="tcp" portid="88"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="kerberos-sec" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="afs3-fileserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49602"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55464"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="59178"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="59869"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="18" rttvar="20" to="100000"/>
+</host>
+<host starttime="1752611097" endtime="1752611768"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.92" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65529">
+<extrareasons reason="conn-refused" count="65529" proto="tcp" ports="1-4999,5001-6999,7001-7099,7101-49151,49154-62077,62079-65535"/>
+</extraports>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="afs3-fileserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="font-service" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62078"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="iphone-sync" method="table" conf="3"/></port>
+</ports>
+<times srtt="17484" rttvar="4254" to="100000"/>
+</host>
+<host starttime="1752611097" endtime="1752611798"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.98" addrtype="ipv4"/>
+<hostnames>
+<hostname name="Living-Room-2" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65529">
+<extrareasons reason="conn-refused" count="65529" proto="tcp" ports="1-4999,5001-6999,7001-7099,7101-49151,49154-62077,62079-65535"/>
+</extraports>
+<port protocol="tcp" portid="5000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="upnp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="afs3-fileserver" method="table" conf="3"/></port>
+<port protocol="tcp" portid="7100"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="font-service" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49153"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62078"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="iphone-sync" method="table" conf="3"/></port>
+</ports>
+<times srtt="10993" rttvar="2281" to="100000"/>
+</host>
+<host starttime="1752611097" endtime="1752611793"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.1.165" addrtype="ipv4"/>
+<hostnames>
+<hostname name="iPhone" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65531">
+<extrareasons reason="conn-refused" count="65531" proto="tcp" ports="1-49151,49153-49767,49769-58195,58197-62077,62079-65535"/>
+</extraports>
+<port protocol="tcp" portid="49152"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49768"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="58196"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62078"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="iphone-sync" method="table" conf="3"/></port>
+</ports>
+<times srtt="15901" rttvar="6354" to="100000"/>
+</host>
+<runstats><finished time="1752611798" timestr="Tue Jul 15 16:36:38 2025" summary="Nmap done at Tue Jul 15 16:36:38 2025; 256 IP addresses (5 hosts up) scanned in 754.04 seconds" elapsed="754.04" exit="success"/><hosts up="5" down="251" total="256"/>
+</runstats>
+</nmaprun>
