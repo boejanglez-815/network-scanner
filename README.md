@@ -23,5 +23,6 @@ Outputs a formatted Excel file with a dashboard-style summary
 ```bash
 nmap -p- -T4 -oX scan_results.xml 192.168.1.0/24
 
-2. Run the Python script:
+2.
+
 python3 nmap_to_excel.py
